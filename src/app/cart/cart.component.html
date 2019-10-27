@@ -12,14 +12,14 @@
 <form [formGroup]="checkoutForm" (ngSubmit)="onSubmit(checkoutForm.value)">
 
   <div>
-    <label for="">
+    <label for="name">
       Name
     </label>
     <input id="name" type="text" formControlName="name">
   </div>
 
   <div>
-    <label>
+    <label for="address">
       Address
     </label>
     <input id="address" type="text" formControlName="address">
